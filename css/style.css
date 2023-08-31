@@ -4,7 +4,6 @@ img.bg {
     height: 100%;
     top: 0;
     left: 0;
-    
     z-index: -20; 
 }
 
@@ -18,14 +17,17 @@ img.bg {
     opacity: 40%;
     z-index: -10;
 }
+span, .plus, .plus-horizontal, .plus-vertical {
+    pointer-events: none;
+}
+button {
+    z-index: 1;
+}
 
 .btn {
     border-radius: 50%;
     width: 41px;
     height: 41px;
-    
-
-   
     
     font-size: 24px;
     text-align: center;
@@ -57,7 +59,7 @@ img.bg {
 }
 
 .green-active {
-    background-color: rgb(106, 191, 75) ;
+    background-color: rgb(106, 191, 75);
 }
 
 .plus {
@@ -81,6 +83,7 @@ img.bg {
     background-color: #fff;
     top: 45%;
     transform: translateX(-50%);
+    
 }
 
 
