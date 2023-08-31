@@ -19,7 +19,7 @@ buttons.forEach(button =>
 
         button.classList.toggle('btn-active');
         plus.classList.toggle('plus-active')
+        plus.classList.toggle('plus-vertical')
         location.classList.toggle('location-active')
-        
     })
 );

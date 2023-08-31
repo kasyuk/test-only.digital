@@ -35,7 +35,7 @@ img.bg {
 
 .btn-active {
     width: auto;
-    height: 41px;
+    height: 42px;
     border-radius: 40px;
     opacity: 100%;
 
@@ -60,9 +60,33 @@ img.bg {
     background-color: rgb(106, 191, 75) ;
 }
 
+.plus {
+    padding: 0;
+    margin: 0;
+}
+
+.plus-vertical {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    top: 26%;
+    left: 48%;
+}
+
+.plus-horizontal {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    top: 45%;
+    transform: translateX(-50%);
+}
+
+
 .plus-active {
     position: relative;
-    padding: 0 14px;
+    padding: 0 20px;
 }
 
 .location {
@@ -73,5 +97,5 @@ img.bg {
     display: block;
 
     font-size: 14px;
-    padding:  15px 15px 15px 0;
+    padding:  15px 15px
 }
