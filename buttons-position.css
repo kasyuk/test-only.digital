@@ -1,50 +1,58 @@
+/* 
+    How to find top/left in percentage:
+
+    take the first button as an example
+    button position in figma top 225px, left 1373px
+    top: 225 / 1080 * 100 = 20.8(3)%
+    left: 1373 / 1920 * 100 = 71.51%
+*/
 .btn0 {
     position: absolute;
-    top: calc(0% + 225px);
-    left: 1373px;
+    top: calc(225 / 1080 * 100%);
+    left: calc(1373 / 1920 * 100%);
 }
 .btn1 {
     position: absolute;
-    top: 282px;
-    left: 580px;
+    top: calc(282 / 1080 * 100%);
+    left: calc(580 / 1920 * 100%);
 }
 .btn2 {
     position: absolute;
-    top: 404px;
-    left: 1148px;
+    top: calc(404 / 1080 * 100%);
+    left: calc(1148 / 1920 * 100%);
 }
 .btn3 {
     position: absolute;
-    top: 475px;
-    left: 1414px;
+    top: calc(475 / 1080 * 100%);
+    left: calc(1414 / 1920 * 100%);
 }
 .btn4 {
     position: absolute;
-    top: 482px;
-    left: 687px;
+    top: calc(482 / 1080 * 100%);
+    left: calc(687 / 1920 * 100%);
 }
 .btn5 {
     position: absolute;
-    top: 629px;
-    left: 1081px;
+    top: calc(629 / 1080 * 100%);
+    left: calc(1081 / 1920 * 100%);
 }
 .btn6 {
     position: absolute;
-    top: 669px;
-    left: 1306px;
+    top: calc(669 / 1080 * 100%);
+    left: calc(1306 / 1920 * 100%);
 }
 .btn7 {
     position: absolute;
-    top: 713px;
-    left: 1593px;
+    top: calc(713 / 1080 * 100%);
+    left: calc(1593 / 1920 * 100%);
 }
 .btn8 {
     position: absolute;
-    top: 714px;
-    left: 446px;
+    top: calc(714 / 1080 * 100%);
+    left: calc(446 / 1920 * 100%);
 }
 .btn9 {
     position: absolute;
-    top: 790px;
-    left: 1107px;
+    top: calc(790 / 1080 * 100%);
+    left: calc(1107 / 1920 * 100%);
 }
