@@ -1,0 +1,50 @@
+.btn0 {
+    position: absolute;
+    top: calc(0% + 225px);
+    left: 1373px;
+}
+.btn1 {
+    position: absolute;
+    top: 282px;
+    left: 580px;
+}
+.btn2 {
+    position: absolute;
+    top: 404px;
+    left: 1148px;
+}
+.btn3 {
+    position: absolute;
+    top: 475px;
+    left: 1414px;
+}
+.btn4 {
+    position: absolute;
+    top: 482px;
+    left: 687px;
+}
+.btn5 {
+    position: absolute;
+    top: 629px;
+    left: 1081px;
+}
+.btn6 {
+    position: absolute;
+    top: 669px;
+    left: 1306px;
+}
+.btn7 {
+    position: absolute;
+    top: 713px;
+    left: 1593px;
+}
+.btn8 {
+    position: absolute;
+    top: 714px;
+    left: 446px;
+}
+.btn9 {
+    position: absolute;
+    top: 790px;
+    left: 1107px;
+}

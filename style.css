@@ -1,0 +1,79 @@
+img.bg {
+    position: absolute;
+    /* min-height: 100%; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    z-index: -20; 
+}
+
+.shadow {
+    background: #020F20;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 40%;
+    z-index: -10;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    
+
+   
+    
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn-active {
+    width: auto;
+    height: 41px;
+    border-radius: 40px;
+    opacity: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 16px; */
+}
+
+.blue {
+    background-color: rgb(56, 119, 238, .7);
+}
+
+.green {
+    background-color: rgb(106, 191, 75, .7) ;
+}
+
+.blue-active {
+    background-color: rgb(56, 119, 238);
+}
+
+.green-active {
+    background-color: rgb(106, 191, 75) ;
+}
+
+.plus-active {
+    position: relative;
+    padding: 0 14px;
+}
+
+.location {
+    display: none;
+}
+
+.location-active {
+    display: block;
+
+    font-size: 14px;
+    padding:  0 15px 0 0;
+}
