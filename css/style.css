@@ -27,8 +27,6 @@ button {
 }
 
 .btn {
-    /* border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px; */
     border-radius: 40px;
     width: 41px;
     height: 41px;
@@ -43,8 +41,7 @@ button {
 }
 
 .btn-active {
-    width: 120px;
-    /* height: 41px; */
+    width: 122px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     opacity: 100%;
@@ -52,6 +49,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-grow: 1;
 
     transition: width .5s, background-color .7s;
     transition-timing-function: ease-in;
@@ -73,18 +71,13 @@ button {
     background-color: rgb(106, 191, 75);
 }
 
-.plus {
-    padding: 0;
-    margin: 0;
-}
-
 .plus-vertical {
     position: absolute;
     width: 2px;
     height: 20px;
     background-color: #fff;
     top: 26%;
-    left: 48%;
+    left: 47.5%;
 }
 
 .plus-horizontal {
@@ -92,30 +85,26 @@ button {
     width: 20px;
     height: 2px;
     background-color: #fff;
-    top: 45%;
+    top: 47%;
     transform: translateX(-50%);
-    
 }
 
 .plus-active {
     position: relative;
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 
 .location {
-    /* display: none; */
     color: transparent;
 }
 
 .location-active {
-    display: block;
-    
     font-size: 14px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
-    padding:  11px 15px 11px 0;
-    /* color: #fff; */
-    transition: color 1.5s;
-    transition-timing-function: ease-in;
+    padding:  15px 15px 15px 0;
+    transition: color .3s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
     color: #fff;
 }
