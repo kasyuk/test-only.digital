@@ -5,14 +5,11 @@ document.addEventListener('click', (e) => {
     e.preventDefault();
     let target = e.target;
     
-    // let btn = e.target.closest('btn');
     var plus = e.target.firstChild;
     var location = e.target.lastChild;
-    console.log(target.tagName)
     buttonsArray = Array.from(buttons)
 
     if (target.tagName == 'BUTTON') {
-        // console.log(e.target)
         if (e.target.classList.contains('blue')) {
             e.target.classList.toggle('blue-active')
         } else {
