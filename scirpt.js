@@ -35,29 +35,6 @@ document.addEventListener('click', (e) => {
             } else {
                 button.classList.remove('green-active')
             }
-        })
-            
+        })  
     }
-  
 })
-// })
-
-// buttons.forEach(button =>
-//     button.addEventListener('click', (e) => {
-//         e.preventDefault();
-//         const clickOut = e.composedPath().includes(button);
-
-//         let target = e.target;
-//         var plus = button.firstChild
-//         var location = button.lastChild
-
-//         console.log(target)
-//         colorCheck(button);
-
-//         button.classList.toggle('btn-active');
-//         plus.classList.toggle('plus-active')
-//         plus.classList.toggle('plus-vertical')
-//         location.classList.toggle('location-active')
-
-//     })
-// );
