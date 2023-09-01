@@ -1,11 +1,3 @@
-/* 
-    How to find top/left in percentage:
-
-    take the first button as an example
-    button position in figma top 225px, left 1373px
-    top: 225 / 1080 * 100 = 20.8(3)%
-    left: 1373 / 1920 * 100 = 71.51%
-*/
 .btn0 {
     position: absolute;
     top: calc(225 / 1080 * 100%);

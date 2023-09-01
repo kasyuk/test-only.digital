@@ -17,9 +17,11 @@ img.bg {
     opacity: 40%;
     z-index: -10;
 }
+
 span, .plus, .plus-horizontal, .plus-vertical {
     pointer-events: none;
 }
+
 button {
     z-index: 1;
 }
@@ -85,7 +87,6 @@ button {
     transform: translateX(-50%);
     
 }
-
 
 .plus-active {
     position: relative;
