@@ -5,8 +5,8 @@ document.addEventListener('click', (e) => {
     e.preventDefault();
     let target = e.target;
     
-    var plus = e.target.firstChild;
-    var location = e.target.lastChild;
+    let plus = e.target.firstChild;
+    let location = e.target.lastChild;
     buttonsArray = Array.from(buttons)
 
     if (target.tagName == 'BUTTON') {
